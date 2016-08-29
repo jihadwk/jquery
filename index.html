@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.microsoft.com/ajax/jquery
+/jquery-1.4.min.js"></script> <!--从微软加载jquery库,不需要下载，但是必须在网络环境下才能打开-->
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $("button").click(function(){
+        // $("p").hide();//掩藏所有p标签
+        // $(this).hide();//掩藏当前元素
+        // $("#test").hide();//掩藏id="test"的元素
+        $(".ccc").hide();//掩藏所有class＝"ccc"的元素
+    });
+});</script>
+</head>
+<body>
+    <p>ssss</p>
+    <p>sss</p>
+    <button type="button">click me</button>
+    <div id="test">hello</div>
+    <div class="ccc">kkk</div>
+</body>  
+</html>  
